@@ -3,6 +3,6 @@ namespace coinbalance;
 
 interface Coin {
 
-    function getBalance();
+    function getBalance(Options $options);
 
 }

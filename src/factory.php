@@ -3,8 +3,10 @@ namespace coinbalance;
 
 interface Factory {
 
-    function getCoin();
+    function getCoin($coinCode);
 
     function getCache();
+
+    function getOptions();
 
 }
